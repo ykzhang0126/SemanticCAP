@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+import sys
+
+def statistic_seq(f): 
+	print("**********************************")
+	minlen = 10000000000
+	maxlen = 0
+
+	dict1={}
+	lines=f.readlines()
+	f.close()
+	seq = ""
+	for line in lines:
+		line = line.strip()
+		if line[0]=='>':
+			continue
+		else:
+			slen = len(line)
+			if slen<minlen:
+				minlen=slen
+			elif slen>maxlen:
+				maxlen=slen
+			for s in line:
+				s = s.upper()
+				if s in dict1:
+					dict1[s]+=1
+				else:
+					dict1[s]=1
+			seq = ""
+	print('num: ', len(dict1), '\n', 'min_len: ', minlen, '\n', 'max_len: ', maxlen, sep = '')
+	for key,value in dict1.items():
+		print(key + ": " + str(value), sep = '')
+	print("**********************************")
+
+f = open(sys.argv[1],"r")
+
+statistic_seq(f)
+
