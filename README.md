@@ -1,6 +1,6 @@
 # SemanticCAP
 ## Introduction
-This is the source code for paper "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from Language Model", Yikang Zhang, Yelu Jiang, Hongjie Wu and Lijun Quan.
+This is the source code for paper "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model", Yikang Zhang, Xiaomin Chu, Yelu Jiang, Hongjie Wu and Lijun Quan.
 Source data and model files are available at [BaiduNetDisk](https://pan.baidu.com/s/1P_Mfu3xE5_hrULWYk2vKCg) and its access code is "fs8a".
 
 ## Install
