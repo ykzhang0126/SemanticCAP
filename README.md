@@ -1,7 +1,7 @@
 # SemanticCAP
 ## Introduction
 This is the source code for paper "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model", Yikang Zhang, Xiaomin Chu, Yelu Jiang, Hongjie Wu and Lijun Quan.
-Source data and model files are available at [BaiduNetDisk](https://pan.baidu.com/s/1P_Mfu3xE5_hrULWYk2vKCg) and its access code is "fs8a".
+Source data and model files are available at [BaiduNetDisk](https://pan.baidu.com/s/1P_Mfu3xE5_hrUWYk2vKCg) and its access code is "fs8a".
 
 ## Install
 The code is mainly written in Python (3.7) using tensorflow(2.5.0) and pytorch(1.7.0). One can install the required modules by following instructions on website [https://tensorflow.google.cn/install/pip/](https://tensorflow.google.cn/install/pip) and [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
